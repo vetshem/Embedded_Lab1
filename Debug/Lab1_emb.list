@@ -387,7 +387,7 @@ int main(void)
   while (1)
   {
 
-		// Key_Released
+
 		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
  80004d4:	2201      	movs	r2, #1
  80004d6:	f44f 5180 	mov.w	r1, #4096	; 0x1000
